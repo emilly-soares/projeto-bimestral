@@ -35,6 +35,7 @@ export const Container = styled.div`
     input,
     button {
         width: 100%;
+        font-size: 16px;
     }
 
     .campo {

@@ -20,7 +20,11 @@ export default function RecuperarAcesso() {
                   </fieldset>
 
                   <button className="botao" type=" submit">Enviar</button>
-
+                  <fieldset className="grupo">
+                     <Link className="link" to="/login">
+                        <label className="vt" htmlFor="login"> Voltar </label>
+                     </Link>
+                  </fieldset>
                </fieldset>
             </form>
          </div>

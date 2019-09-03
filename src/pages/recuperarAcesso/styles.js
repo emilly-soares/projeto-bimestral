@@ -25,9 +25,19 @@ export const Container = styled.div`
         color: #fff;
     }
 
+    .vt{
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    label.vt:hover {
+      color: #00F5FF;
+    }
+
     label,
     button {
         width: 100%;
+        font-size: 20px;
     }
 
     .geral {
@@ -84,7 +94,6 @@ export const Container = styled.div`
         border-radius: 15px;
         margin-bottom: 10px;
         color:#003399;
-        font-size:20px;
         padding: 5px 9px;
     }
 
