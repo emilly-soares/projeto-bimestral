@@ -10,7 +10,7 @@ export default function Routes() {
 
       <BrowserRouter>
 
-         <Route exact path="/login" component={Login} />
+         <Route exact path="/" component={Login} />
          <Route path="/cadastrar" component={Cadastrar} />
          <Route path="/recuperarAcesso" component={RecuperarAcesso} />
 

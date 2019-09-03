@@ -38,7 +38,7 @@ export default function Cadastrar() {
 
                   <fieldset className="group">
                      <label>Já tem uma conta? </label>
-                     <Link className="link" to="./login">
+                     <Link className="link" to="/">
                         <label className="ent" htmlFor="login">Entrar</label></Link>
                   </fieldset>
 
