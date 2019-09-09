@@ -10,7 +10,7 @@ export default function RecuperarAcesso() {
 
             <form>
                <h2>Redefinição de senha</h2>
-               <h4>Insira o endereço de e-mail associado à sua conta.</h4>
+               <h4>Insira o endereço de e-mail associado.</h4>
                <fieldset>
 
                   <fieldset className="grupo">

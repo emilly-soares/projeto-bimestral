@@ -86,4 +86,11 @@ export const Container = styled.div`
         background-color:rgba(108,166,205,0.3);
         border:0;
     }
+    @media (max-width: 400px){
+        input{
+        width: 90%;
+    }
+    .botao {
+        width: 90%;
+    }
 `;

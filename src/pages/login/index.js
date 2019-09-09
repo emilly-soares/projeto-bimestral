@@ -13,13 +13,13 @@ export default function Login() {
 
                   <fieldset className="grupo">
                      <div className="campo">
-                        <label htmlFor="email">Email: <input type="email" /></label>
+                        <label htmlFor="email">Email: <input id="email" type="email" required /></label>
                      </div>
                   </fieldset>
 
                   <fieldset className="grupo">
                      <div className="campo">
-                        <label htmlFor="senha">Senha: <input type="password" /></label>
+                        <label htmlFor="senha">Senha: <input id="senha" type="password" required /></label>
                      </div>
                   </fieldset>
 

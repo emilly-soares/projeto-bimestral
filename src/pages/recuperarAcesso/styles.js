@@ -56,7 +56,7 @@ export const Container = styled.div`
     }
 
     h4{
-        font-size:20px;
+        font-size:15px;
         color: #fff;
     }
 
@@ -104,5 +104,12 @@ export const Container = styled.div`
     .botao{
         cursor: pointer;
     } 
+    @media (max-width: 400px){
+        input{
+        width: 90%;
+    }
+    .botao {
+        width: 90%;
+    }
 
 `;
